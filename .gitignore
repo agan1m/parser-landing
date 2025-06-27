@@ -1,0 +1,60 @@
+# Numerous always-ignore extensions
+*.bak
+*.diff
+*.err
+*.exe
+*.log
+*.orig
+*.rej
+*.sass-cache
+*.swo
+*.swp
+*.vi
+*~
+
+# Temp files
+.eslintcache
+
+# OS or Editor folders
+*.sublime-grunt.cache
+*.sublime-project
+*.sublime-workspace
+._*
+.cache
+.DS_Store
+.project
+.settings
+.tmproj
+Thumbs.db
+
+# Folders to ignore
+.CVS
+.git
+.hg
+.idea
+.svn
+bower_components
+build
+temp
+
+# Node.JS
+node_modules/**
+npm-debug.log
+
+**/dist
+/.vs
+/.vscode
+.env*.local
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+.yalc/*
+yalc.lock
+
