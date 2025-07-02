@@ -4,7 +4,136 @@
 
 @import './file1';
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
 h1 {
   color: $orange-100;
   font-size: 30px;
+}
+.nav-info {
+  // background-image: url(../../images/fon1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../images/fon1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 20vh;
+  padding-bottom: 50px;
+  background-size: cover;
+}
+
+.menu-start {
+  background-color: #98d2f7ff;
+}
+.menu-item {
+  background-color: black;
+  color: #98d2f7ff;
+  border: 1px solid #98d2f7ff;
+}
+.description-content_img {
+  min-width: 400px;
+  min-height: 700px;
+  background-image: url(../../images/men.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px 30% 30% 20px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.description-content_item {
+  list-style-image: url(../../images/radio.svg);
+}
+
+.scope-content_item a:hover {
+  cursor: default;
+}
+.steps-content {
+  // background-image: url(../../images/fon3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../images/fon3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  overflow: hidden;
+}
+.steps-content_line {
+  width: 97%;
+  height: 16px;
+  background-color: #204088;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.price {
+  background-color: #75bae6;
+}
+.price-table_table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto 20px 0;
+  font-family: Arial, sans-serif;
+}
+.price-table_table th,
+td {
+  border: 1px solid #6faed6;
+
+  padding: 12px;
+  text-align: center;
+}
+.price-table_table th {
+  background-color: #7cc5f7;
+  font-weight: bold;
+}
+.price-table_table tr:nth-child(even) {
+  background-color: #7cc5f7;
+}
+
+.first-col {
+  text-align: left;
+  font-weight: bold;
+}
+.footer-content_img {
+  min-width: 400px;
+  min-height: 700px;
+  background-image: url(../../images/fon2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px 30% 30% 20px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+.footer-content_item {
+  background-color: #d4e9f7;
+  border: 1px solid #7cc5f7;
+  border-radius: 20px;
 }
