@@ -37,7 +37,7 @@ h1 {
   color: $orange-100;
   font-size: 30px;
 }
-.nav-info {
+.nav-img {
   // background-image: url(../../images/fon1.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../../images/fon1.jpg);
@@ -50,6 +50,7 @@ h1 {
 
 .menu-start {
   background-color: #98d2f7ff;
+  background: linear-gradient(45deg, #6cb9ee 0%, #c4eaff 100%);
 }
 .menu-item {
   background-color: black;
@@ -57,7 +58,7 @@ h1 {
   border: 1px solid #98d2f7ff;
 }
 .description-content_img {
-  min-width: 400px;
+  min-width: 200px;
   min-height: 700px;
   background-image: url(../../images/men.jpg);
   background-repeat: no-repeat;
@@ -82,7 +83,7 @@ h1 {
 .scope-content_item a:hover {
   cursor: default;
 }
-.steps-content {
+.steps {
   // background-image: url(../../images/fon3.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../../images/fon3.jpg);
@@ -129,7 +130,7 @@ td {
   font-weight: bold;
 }
 .footer-content_img {
-  min-width: 400px;
+  min-width: 200px;
   min-height: 700px;
   background-image: url(../../images/fon2.jpg);
   background-repeat: no-repeat;
